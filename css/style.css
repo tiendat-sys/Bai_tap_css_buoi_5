@@ -1,0 +1,212 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #0f0f0f; 
+  color: #f3f3f3;
+  font-family: 'Roboto Flex', sans-serif;
+  padding: 32px 24px;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.works-section {
+  max-width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.works-header {
+  background-color: #1a1a1a;
+  border-radius: 12px;
+  padding: 24px 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.section-title {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 1;
+  letter-spacing: 0;
+  text-transform: uppercase;
+}
+.action-link {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 13px;
+  color: #b3b3b2;
+}
+.action-link img {
+  width: 36px;
+  height: 36px;
+  display: block;
+}
+.work-card {
+  border: 1px solid #1f1f1f;
+  border-radius: 14px;
+  padding: 12px;
+  display: flex;
+  gap: 12px;
+}
+.work-info,
+.work-image,
+.work-meta {
+  flex: 1;
+}
+.work-info {
+  background-color: #1a1a1a;
+  border-radius: 10px;
+  padding: 28px 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 20px;
+}
+.work-info-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+}
+.project-brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.project-icon {
+  width: 44px;
+  height: 44px;
+  background-color: #1f1f1f;
+  border: 1px solid #2b2b2b;
+  border-radius: 8px;
+  color: #ce7d63;
+  /* Căn giữa icon */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  flex-shrink: 0; 
+}
+.project-name {
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.4px;
+}
+.project-badges {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; 
+  gap: 8px;
+}
+.badge {
+  background-color: #1f1f1f;
+  padding: 6px 14px;
+  border-radius: 999px;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.badge-label {
+  color: #999;
+}
+.dot {
+  color: #ce7d63; 
+}
+.badge-value {
+  color: #e6e6e6;
+  font-weight: 500;
+}
+.project-desc {
+  color: #999;
+  font-size: 13.5px;
+  line-height: 1.5;
+}
+.work-image {
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex; 
+}
+.work-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+  display: block;
+}
+.work-meta {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 12px;
+}
+.tech-box {
+  background-color: #1a1a1a;
+  border-radius: 10px;
+  padding: 24px;
+  flex: 1; 
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.meta-title {
+  font-size: 13px;
+  font-weight: 500;
+  color: #cccccc;
+  letter-spacing: 0.5px;
+}
+.tech-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.tech-tag {
+  background-color: #1f1f1f;
+  color: #cccccc;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 12px;
+  padding: 6px 12px;
+  border-radius: 6px;
+}
+.team-box {
+  background-color: #1a1a1a;
+  border-radius: 10px;
+  padding: 16px 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.avatar-list {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.avatar-list img {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  object-fit: cover;
+  background-color: #E7BEB1;
+}
+.btn-book {
+  background-color: #CE7D63; 
+  color: #0f0f0f;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 13px;
+  font-weight: 600;
+  padding: 15px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: opacity 0.2s ease;
+}
+.btn-book:hover {
+  opacity: 0.9;
+}
